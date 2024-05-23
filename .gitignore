@@ -40,3 +40,7 @@ Thumbs.db
 # Dependency directories
 package-lock.json
 yarn.lock
+
+#dependencies
+/.pnp
+.pnp.js
