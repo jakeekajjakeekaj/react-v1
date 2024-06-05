@@ -1,6 +1,9 @@
 import './App.css';
 import logo from './imagenes/logo-lego.png';
-import Tarea from './componentes/Tarea.jsx';
+// import Tarea from './componentes/Tarea.jsx';
+// import TareaFormulario from './componentes/TareaFormulario';
+import ListaDeTareas from './componentes/ListaDeTareas';
+
 
 function App() {
   return (
@@ -14,7 +17,9 @@ function App() {
       </div>
       <div className='app-tareas__tareas-lista-principal'>
         <h1>Mis Tareas</h1>
-        <Tarea texto='Aprender React' />
+        {/* <Tarea texto='Aprender React' /> */}
+        {/* <TareaFormulario /> */}
+        <ListaDeTareas />
       </div>
     </div>
   );
